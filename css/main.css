@@ -1,0 +1,24 @@
+@import url("./box.css");
+
+/* BODY
+line-height 에서 px를 넣으면 글꼴의 크기 변화에도 불구하고 행간의 높이는 변함이 없지만,
+  정수를 사용하면 이 정수는 글자크기의 배수를 의미하므로 글자 크기에 따라 행간의 높이도 글자 크기에 맞춰서 변화하기 때문에 
+  정수를 사용하는 것을 권함.   */
+.body {
+  font-family: 'Pretendard-Medium';
+  font-size: 17px;
+  color: #000;
+  width: 700px;
+  padding: 130px 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.body span {
+  line-height: 2.7;
+}

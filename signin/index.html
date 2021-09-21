@@ -11,17 +11,17 @@
   <meta property="og:site_name" content="류혁닷컴" />
   <meta property="og:title" content="류혁닷컴" />
   <meta property="og:description" content="민주주의, 정치, 경제, 역사 그리고 일상을 이야기합니다." />
-  <meta property="og:image" content="./RYUHYUK.png" />
+  <meta property="og:image" content="../RYUHYUK.png" />
   <meta property="og:url" content="https://relaxed-noether-3babc4.netlify.app" />
 
   <meta property="twitter:card" content="summary" />
   <meta property="twitter:site" content="류혁닷컴" />
   <meta property="twitter:title" content="류혁닷컴" />
   <meta property="twitter:description" content="민주주의, 정치, 경제, 역사 그리고 일상을 이야기합니다." />
-  <meta property="twitter:image" content="./RYUHYUK.png" />
+  <meta property="twitter:image" content="../RYUHYUK.png" />
   <meta property="twitter:url" content="https://relaxed-noether-3babc4.netlify.app" />
 
-  <link rel="icon" href="./로고.png">
+  <link rel="icon" href="../로고.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
@@ -34,25 +34,27 @@
       font-weight: normal;
       font-style: normal;
     }
-
-    @font-face {
-      font-family: 'Pretendard-Medium';
-      src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
-      font-weight: 200;
-      font-style: normal;
-    }
   </style>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
-  <link rel="stylesheet" href="./css/common.css">
-  <link rel="stylesheet" href="./css/main.css">
-  <script defer src="./js/common.js"></script>
-  <script defer src="./js/main.js"></script>
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/signin.css">
+  <script defer src="../js/common.js"></script>
+  <script defer src="../js/main.js"></script>
 </head>
 
 <body>
   <!-- HEADER -->
   <header>
+    <style type="text/css">
+      @font-face {
+        font-family: 'Pretendard-Medium';
+        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+        font-weight: 200;
+        font-style: normal;
+      }
+    </style>
+
     <div class="inner">
       <a href="/">
         <span>류 &nbsp;혁 &nbsp;닷 &nbsp;컴</span>
@@ -60,7 +62,7 @@
       <div class="sub-menu">
         <ul class="sub">
           <li>
-            <a href="./signin/index.html ">로그인</a>
+            <a href="../signin/index.html ">로그인</a>
           </li>
           <li>
             <a href="javasript:void(0)">My opinion</a>
@@ -77,11 +79,11 @@
 
       <ul class="main-menu">
         <li class="item">
-          <div class="item_name"><a href="./content.html">일상</a>
+          <div class="item_name"><a href="../content.html">일상</a>
           </div>
         </li>
         <li class="item">
-          <div class="item_name"><a href="./content.html">비평</a>
+          <div class="item_name"><a href="../content.html">비평</a>
           </div>
           <div class="item__contents">
             <ul class="inner">
@@ -109,13 +111,13 @@
                   <li>노&nbsp; 동</li>
                   <li>국&nbsp; 제</li>
                   <li>언&nbsp; 론</li>
-                </ul> 
-              </li> 
+                </ul>
+              </li>
             </ul>
           </div>
         </li>
         <li class="item">
-          <div class="item_name"><a href="./content.html">서평</a>
+          <div class="item_name"><a href="../content.html">서평</a>
           </div>
           <div class="item__contents">
             <ul class="inner">
@@ -147,13 +149,13 @@
                 <ul>
                   <li>일&nbsp; 반</li>
                   <li>노&nbsp; 동</li>
-                </ul> 
+                </ul>
               </li>
             </ul>
           </div>
         </li>
         <li class="item">
-          <div class="item_name"><a href="./content.html">기사</a>
+          <div class="item_name"><a href="../content.html">기사</a>
           </div>
           <div class="item__contents">
             <ul class="inner">
@@ -185,28 +187,35 @@
           </div>
         </li>
         <li class="item">
-          <div class="item_name"><a href="./content.html">사진</a>
+          <div class="item_name"><a href="../content.html">사진</a>
           </div>
         </li>
         <li class="item">
-          <div class="item_name"><a href="./content.html">안부</a>
+          <div class="item_name"><a href="../content.html">안부</a>
           </div>
         </li>
       </ul>
     </div>
   </header>
 
-  <div class="body">
-    <p>
-      '자유주의자' 이면서 '사회주의자'이고<br />
-      '개인주의자' 이면서 '공동체주의자'이며<br />
-      '비관주의자' 이면서 '이상주의자'인<br />
-      <span>그리고<br /></span>
-      평범하지만 지성을 꿈꾸는, 어느 직장인의 홈페이지 입니다.<br />
-    </p>
-  </div>
-
-
+  <!-- 로그인 페이지 -->
+  <section class="signin">
+    <h1>로 그 인</h1>
+    <div class="signin__card">
+      <h2>류혁닷컴에 방문하신 것을 환영합니다.</h2>
+      <form action="javacrip:void(0)">
+        <input type="text" placeholder="아이디를 입력하세요">
+        <input type="password" placeholder="비밀번호를 입력하세요">
+        <input type="submit" value="로그인">
+        <p>
+          회원가입을 하면 더 많은 글과 사진을 확인하실 수 있습니다.
+        </p>
+      </form>
+      <div class="actions">
+        <a href="javacrip:void(0)">회원가입</a>
+        <a href="javacrip:void(0)">아이디찾기</a>
+        <a href="javacrip:void(0)">비밀번호 찾기</a>
+      </div>
+    </div>
+  </section>
 </body>
-
-</html>
