@@ -34,18 +34,11 @@
       font-weight: normal;
       font-style: normal;
     }
-
-    @font-face {
-      font-family: 'Pretendard-Medium';
-      src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
-      font-weight: 200;
-      font-style: normal;
-    }
   </style>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
   <link rel="stylesheet" href="../css/common.css">
-  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/signin.css">
   <script defer src="../js/common.js"></script>
   <script defer src="../js/main.js"></script>
 </head>
@@ -53,6 +46,15 @@
 <body>
   <!-- HEADER -->
   <header>
+    <style type="text/css">
+      @font-face {
+        font-family: 'Pretendard-Medium';
+        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+        font-weight: 200;
+        font-style: normal;
+      }
+    </style>
+
     <div class="inner">
       <a href="/">
         <span>류 &nbsp;혁 &nbsp;닷 &nbsp;컴</span>
@@ -198,5 +200,22 @@
 
   <!-- 로그인 페이지 -->
   <section class="signin">
-
+    <h1>로 그 인</h1>
+    <div class="signin__card">
+      <h2>류혁닷컴에 방문하신 것을 환영합니다.</h2>
+      <form action="javacrip:void(0)">
+        <input type="text" placeholder="아이디를 입력하세요">
+        <input type="password" placeholder="비밀번호를 입력하세요">
+        <input type="submit" value="로그인">
+        <p>
+          회원가입을 하면 더 많은 글과 사진을 확인하실 수 있습니다.
+        </p>
+      </form>
+      <div class="actions">
+        <a href="javacrip:void(0)">회원가입</a>
+        <a href="javacrip:void(0)">아이디찾기</a>
+        <a href="javacrip:void(0)">비밀번호 찾기</a>
+      </div>
+    </div>
   </section>
+</body>

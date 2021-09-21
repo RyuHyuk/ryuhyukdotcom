@@ -27,7 +27,7 @@ header>.inner {
 
 header span {
   font-family: 'TmonMonsori';
-  color: #0058a8;
+  color: #000585;
   font-size: 40px;
   font-weight: bold;
   height: 79px;
@@ -147,6 +147,7 @@ header .inner .sub-menu .search .material-icons {
   display: flex;
   padding: 20px 0;
   width: 670px; 
+  border: 0.1px solid rgb(216, 214, 214);
   background-color:#f3f2f2;
   left: 0;
 }
